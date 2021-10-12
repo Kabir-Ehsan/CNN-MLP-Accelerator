@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="TEST2" location="C:/Users/ekabir/Desktop/FPGA/MLP_HLS/MLP_LSTM4/PE08_FLOAT/TEST2" platform="C:/Users/ekabir/Desktop/FPGA/MLP_HLS/MLP_LSTM4/PE08_FLOAT/LSTM_BRAM2/export/LSTM_BRAM2/LSTM_BRAM2.xpfm" platformUID="xilinx:vc707::0.0(custom)" systemProject="TEST2_system" sysConfig="LSTM_BRAM2" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" language="CPP" mssSignature="ff42051e570a511e5b632c6acb8abc3a">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1843583988">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.2023121997" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
