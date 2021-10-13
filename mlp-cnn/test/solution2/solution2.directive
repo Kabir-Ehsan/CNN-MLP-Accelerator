@@ -1,0 +1,484 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="RESOURCE">
+                <option name="variable" value="NInputs" positionalBoolean="4"/>
+                <option name="core" value="RAM_2P_BRAM"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="RESOURCE">
+                <option name="variable" value="NNeurons" positionalBoolean="4"/>
+                <option name="core" value="RAM_2P_BRAM"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="RESOURCE">
+                <option name="variable" value="NPartions" positionalBoolean="4"/>
+                <option name="core" value="RAM_2P_BRAM"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="RESOURCE">
+                <option name="variable" value="NExtraPE_Needed" positionalBoolean="4"/>
+                <option name="core" value="RAM_2P_BRAM"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="axis" value="" positionalBoolean="mode"/>
+                <option name="register" value="" positionalBoolean="1"/>
+                <option name="both" value="" positionalBoolean="register_mode"/>
+                <option name="port" value="in_stream" positionalBoolean="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="axis" value="" positionalBoolean="mode"/>
+                <option name="register" value="" positionalBoolean="1"/>
+                <option name="both" value="" positionalBoolean="register_mode"/>
+                <option name="port" value="out_stream" positionalBoolean="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="Config" positionalBoolean="4"/>
+                <option name="bundle" value="bus_bundle_configur"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="new_net" positionalBoolean="4"/>
+                <option name="bundle" value="bus_bundle_configur"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="conv" positionalBoolean="4"/>
+                <option name="bundle" value="bus_bundle_configur"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="return" positionalBoolean="4"/>
+                <option name="bundle" value="bus_bundle_configur"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="INPUTS" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="Controller" label="MAXW" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="Controller" label="WEIGHTS" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="Controller" label="PartitionL" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="Controller" label="KERNELS" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="Controller" label="INPUTS2" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="J1" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex1" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex2" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex3" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex4" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex5" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="3"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex6" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="3"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex7" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="K2" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="J3" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex8" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex9" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex10" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex11" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex12" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="3"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex13" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="3"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="Ex14" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="K4" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="8"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE0_Unit" label="PE0_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE1_Unit" label="PE1_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE2_Unit" label="PE2_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE3_Unit" label="PE3_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE4_Unit" label="PE4_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE5_Unit" label="PE5_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE6_Unit" label="PE6_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE7_Unit" label="PE7_Unit" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N0_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N1_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N2_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N3_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N4_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N5_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N6_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_weight.N7_weight" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N0_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N1_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N2_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N3_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N4_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N5_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N6_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_input.N7_input" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE0_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE1_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE2_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE3_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE4_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE5_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE6_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="PE_output.PE7_output" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="weights" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="kernels" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="inputs" positionalBoolean="4"/>
+                <option name="block" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="col" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="ExC1" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="ExC2" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="ExC3" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="ExC4" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="ExC5" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="3"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="ExC6" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="3"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="ExC7" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="Controller" label="copy2" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="4"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

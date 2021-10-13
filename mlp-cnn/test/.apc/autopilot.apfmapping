@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="weights_mnist5.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_mnist5.h"/>
+    <originFiles name="weights_mnist4.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_mnist4.h"/>
+    <originFiles name="weights_mnist3.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_mnist3.h"/>
+    <originFiles name="weights_mnist2.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_mnist2.h"/>
+    <originFiles name="weights_mnist.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_mnist.h"/>
+    <originFiles name="weights_kernel4.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_kernel4.h"/>
+    <originFiles name="weights_kernel3.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_kernel3.h"/>
+    <originFiles name="weights_kernel2.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_kernel2.h"/>
+    <originFiles name="weights_kernel.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\weights_kernel.h"/>
+    <originFiles name="inputs3.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\inputs3.h"/>
+    <originFiles name="inputs.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\inputs.h"/>
+    <originFiles name="NNP3_upgrade1.cpp" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\NNP3_upgrade1.cpp"/>
+    <originFiles name="Controller_net_upgrade1.h" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\Controller_net_upgrade1.h"/>
+  </source>
+  <testbench>
+    <originFiles name="NNP_TB_upgrade1.cpp" path="C:\Users\ekabir\Desktop\FPGA\hw\MLP_CNN\NNP_TB_upgrade1.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
