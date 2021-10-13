@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="fix1" location="C:/Users/ekabir/Desktop/FPGA/hw/MLP_CNN/PE08_FLOAT2/fix1" platform="C:/Users/ekabir/Desktop/FPGA/hw/MLP_CNN/PE08_FLOAT2/mnistCNN_fix4/export/mnistCNN_fix4/mnistCNN_fix4.xpfm" platformUID="xilinx:vc707::0.0(custom)" systemProject="fix1_system" sysConfig="mnistCNN_fix4" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" language="CPP" mssSignature="8e9bd46cb8999869a4b6d3483d74aa51">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.2056381834">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1853865928" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
